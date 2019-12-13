@@ -1,6 +1,6 @@
 describe('launch liveintent website',function(){
     it('validate liveintent website and buttons present',function(){
-        //because the page does not use Angular
+        //handle error messages because the page does not use Angular
         browser.waitForAngularEnabled(false);
         //set browser to max size so elements can be in view
         browser.driver.manage().window().maximize();
